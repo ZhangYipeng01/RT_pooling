@@ -16,19 +16,19 @@ To run this project, ensure the following libraries are installed:
 ## Usage
 ### Data Preparation
 
-For Compound datasets: Run get_rhomboid.py to preprocess data for Rhomboid Tiling Pooling.
+For Compound datasets: Run "python get_rhomboid.py -- dataset <dataset_name>" to preprocess data for Rhomboid Tiling Pooling.
 
-For Molecular datasets: Run get_rhomboid_fromSMILES.py to generate the necessary information from SMILES data.
+For Molecular datasets: Run "python get_rhomboid_fromSMILES.py -- dataset <dataset_name>" to preprocess data for Rhomboid Tiling Pooling from SMILES data.
 
-For both datasets, after initial preprocessing, run Dataset_RT_pooling.py to complete data preparation for rhomboid tiling pooling. This part can be automated using the script create_data.sh.
+For both datasets, after initial preprocessing, run "python Dataset_RT_pooling.py -- dataset <dataset_name>" to complete data preparation for rhomboid tiling pooling. This part can be automated using the script create_data.sh.
 
 ### Running the Main Program
 
 To perform Rhomboid Tiling Pooling and graph-level classification:
 
-For Compound datasets: Execute RTpool_comp.sh or run RTpool_molecular.py. 
+For Compound datasets: Execute RTpool_comp.sh or run "python RTpool_molecular.py -- dataset <dataset_name>". 
 
-For Molecular datasets: Execute RTpool_mol.sh or run RTpool_compound.py
+For Molecular datasets: Execute RTpool_mol.sh or run "python RTpool_compound.py -- dataset <dataset_name>"
 
 These scripts will apply Rhomboid Tiling Pooling to the respective datasets and perform graph-level classification.
 
