@@ -1,5 +1,5 @@
 
-![flowchart_RT](flowchart(1).png)
+![flowchart_RT](flowchart.png)
 # Rhomboid Tiling Pooling
 This repository contains code for performing Rhomboid Tiling Pooling on graph data, specifically designed for graph-level classification on Compound and Molecular datasets.
 
